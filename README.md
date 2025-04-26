@@ -1,55 +1,36 @@
-📌 Project Overview: 
+## 🏢 Employee Management System - Spring Boot
 
-This project is a CRUD (Create, Read, Update, Delete) based Employee Management System developed using Spring Boot and Hibernate ORM.
+A **Java Spring Boot based Employee Management System** that allows users to add,
+view, update, and delete employee records using **REST APIs**, **Hibernate ORM**, and **MySQL**.
 
-It provides RESTful APIs to:
+## 🚀 Features:
 
-Add single/multiple employees
+✔️ Add Single or Multiple Employees
 
-Fetch employee details
+✔️ View Employee Details by ID
 
-Update employee salary
+✔️ View List of All Employees
 
-Delete an employee by ID
+✔️ Update Employee Salary by ID
 
-🚀 Technologies Used:
+✔️ Delete Employee by ID
 
-Java 17+
+✔️ Exception Handling for Robust Operations
 
-Spring Boot
+## 🛠️ Technologies Used:
 
-Hibernate (ORM)
+**Java 17+**
 
-Maven
+**Spring Boot**
 
-MySQL Database
+**Hibernate ORM**
 
-Git/GitHub
+**MySQL Database**
 
-📂 Project Structure:
+**REST API Development**
 
-com.pr
-├── controller
-│   └── EmployeeController.java
-├── service
-│   └── EmployeeService.java
-├── dao
-│   └── EmployeeDao.java
-├── entity
-│   └── Employee.java
-├── EmpMngSystemSpringbootApplication.java
+**Maven**
 
-📚 APIs Overview:
+**PostMan**
 
-Method	Endpoint	Description
-
-GET	/employees/get-login	Test login API
-GET	/employees/get-employee/{id}	Fetch employee by ID
-GET	/employees/get-employee-list	Fetch all employees
-POST	/employees/insert-employee	Insert a single employee
-POST	/employees/insert-employee-list	Insert multiple employees
-PUT	/employees/update-employee-salary/{id}	Update employee salary by ID
-DELETE	/employees/delete-employee/{id}	Delete employee by ID
-
-✍️ Author
-Developed by Pavan Rathod
+**Git/GitHub**
