@@ -26,8 +26,8 @@ MySQL Database
 
 Git/GitHub
 
-📂 Project Structure
-Copy code
+📂 Project Structure:
+
 com.pr
 ├── controller
 │   └── EmployeeController.java
